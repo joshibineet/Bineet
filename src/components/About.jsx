@@ -1,8 +1,7 @@
-import React from "react";
-
+/* eslint-disable react/no-unescaped-entities */
 const About = () => {
   return (
-    <div name="about" className=" w-full  h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className=" w-full  h-screen animated-bg text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -20,10 +19,10 @@ const About = () => {
           </div>
           <div>
             <p>
-              Frontend developer skilled in HTML, CSS,JavaScript, and React.js creating
-              seamless user interfaces. Collaborates with designers and backend
-              developers to ensure cohesive integration. Optimizes code for
-              performance and accessibility, delivering high-quality user
+              Frontend developer skilled in HTML, CSS,JavaScript, and React.js
+              creating seamless user interfaces. Collaborates with designers and
+              backend developers to ensure cohesive integration. Optimizes code
+              for performance and accessibility, delivering high-quality user
               experiences. Continuously learns to stay abreast of evolving
               technologies and best practices. Passionate problem-solver
               dedicated to improving frontend development.
